@@ -1,0 +1,337 @@
+@media (max-width: 1199px) {
+  .slide-img {
+    display: none;
+  }
+  .s-theme-2 .slide-content {
+    text-align: center;
+  }
+  .s-theme-2 .slide-content p {
+    margin: 50px auto 40px;
+    color: #000;
+  }
+  .features .features-inner::after {
+    width: 150px;
+    height: 150px;
+    bottom: -181px;
+    left: 31px;
+  }
+  .accord-partner ul.nav {
+    margin-right: 0;
+  }
+  .top-head li {
+    padding: 0 23px;
+  }
+  .head-detail li:first-child {
+    padding-left: 0;
+    padding-right: 23px;
+  }
+  .head-detail li:last-child {
+    padding-left: 23px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .d-none{
+    display: none;
+  }
+
+  .banner {
+    padding: 120px 0 50px;
+  }
+  .banner-heading h2 {
+    font-size: 40px;
+    padding-bottom: 80px;
+  }
+
+  .top-head {
+    border-bottom:0;
+   }
+  .testimonial .testi-content {
+    text-align: center;
+  }
+  .head-detail,
+  .head-detail-2,
+  .menubar {
+    display: none;
+  }
+  .features .features-inner {
+    margin: 30px auto 0;
+  }
+  .features .features-inner::after {
+    display: none;
+  }
+  .abt-partners {
+    padding-top: 40px;
+  }
+  .member-detail .social {
+    margin-bottom: 50px;
+  }
+  .comment-btn{
+      margin-bottom: 60px;
+  }
+  .bottom-head .btn-fino{
+      display:none;
+  }
+  .logo {
+    display: none;
+  }
+  .mobile-logo {
+    text-align: left;
+}
+.fino-pagination {
+  margin-bottom: 60px;
+}
+}
+@media (max-width: 767px) {
+  .btn-fino,
+  .attach + label strong {
+    font-size: 18px;
+  }
+  .slide-content h2,
+  .slide-content h3 {
+    font-size: 40px;
+  }
+  .all-title h3 {
+    font-size: 30px;
+  }
+  .sec-title {
+    margin: 10px 40px;
+  }
+  .quote p,
+  .cta p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .cta-3 h2,
+  .cta-3 p {
+    text-align: center;
+  }
+  .case-tab::before,
+  .case-tab::after {
+    display: none;
+  }
+  .case-tab {
+    float: none;
+    display: inline-block;
+    border: 0;
+    margin: 10px 0;
+  }
+  .send {
+    float: none;
+    margin-top: 20px;
+  }
+  .head-detail {
+    display: none;
+  }
+  .s-theme-2 .fino-slider .owl-dots {
+    display: block;
+  }
+  .progres h4,
+  .progres .prog-count,
+  .progres .per {
+    font-size: 14px;
+  }
+  .blog-detail-content {
+    margin-right:10px;
+    margin-left:10px;
+    margin-top: -40px;
+    padding: 0 10px;
+  }
+  .user-img {
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  .user-post-content {
+    display: block;
+    text-align: center;
+  }
+  .user-post-content,
+  .user-comments .user-post-content {
+    padding-left: 0;
+  }
+  .block-2 {
+    margin-left: 0;
+  }
+  .user-post {
+    padding-right:0;
+    padding-left:0;
+  }
+  .user-comments{
+      padding-left: 0;
+  }
+  .user-comments h2 {
+    text-align: center;
+  }
+  .page404{
+    padding:150px 0;
+  }
+  .page404 h2{
+    font-size:70px;
+    font-weight: 800;
+  }
+  .page404 h3{
+    font-size:40px;
+  }
+  .slide-content p{
+    display: none;
+  }
+  .blog-horiz .blog-content {
+    margin-left: 0;
+    margin: 0 20px;
+    margin-top: -40px;
+}
+}
+@media (min-width: 992px) {
+  .d-lg-block{
+    display: block;
+  }
+  .d-lg-none{
+    display: none;
+  }
+  .mobile-logo {
+    display: none;
+  }
+
+  .menubar .menu-item {
+    padding-right: 6px;
+    display: inline-block;
+  }
+  .dropdown .menu-item{display: block;padding-right: 0}
+  .menubar .menu-link {
+    border-bottom: 2px solid transparent;
+  }
+
+  .menubar .menu-link::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -2px;
+    right: 50%;
+    left: 50%;
+    opacity: 0;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+
+  .menubar .menu-link:hover.menu-link::before {
+    right: 0;
+    left: 0;
+    opacity: 1;
+  }
+  .menubar .dropdown {
+    position: absolute;
+    min-width: 200px;
+    width: auto;
+    z-index: 3;
+    padding: 0;
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+  }
+  .menu-item:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .menubar .dropdown a {
+    padding: 14px 10px;
+  }
+
+  .menu-link {
+    text-align: center;
+  }
+  .menubar .dropdown li .dropdown {
+    left: 200px;
+    opacity: 0;
+    transform: translateY(20px);
+    top: 0;
+    visibility: hidden;
+  }
+  .menubar .dropdown li:hover .dropdown {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .dropdown-item {
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    position: relative;
+  }
+  .dropdown-item .sub-drop li{border-bottom: 1px solid #fff;}
+  .dropdown-item .sub-drop li:last-child{border-bottom: 0;}
+  .fino-mobile-menu {
+    display: none;
+  }
+
+  .features .features-inner {
+    padding: 35px 13px 10px;
+  }
+  .features {
+    padding-bottom: 96px;
+  }
+  .timeline-icon {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .timeline-icon i {
+    font-size: 32px;
+    padding-top: 14px;
+  }
+  .ver-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+  .timeline-content {
+    margin-left: 0;
+    width: 41%;
+  }
+  .timeline-icon::before {
+    left: -85px;
+  }
+  .timeline-block:nth-child(even) .timeline-icon::before {
+    left: 100%;
+  } 
+  .timeline-block:nth-child(even) .timeline-content {
+    float: right;
+  }
+  .timeline-icon::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 15px;
+    top: 50%;
+    left: -9px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    z-index: -1;
+  }
+  .timeline-block:nth-child(even) .timeline-icon::after {
+    left: auto;
+    right: -9px;
+  }
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .h-theme-2 .menu-link,
+  .h-theme-2 .dropdown-item a {
+    padding: 15px 14px;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+
+  .counter .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+}
